@@ -1,0 +1,45 @@
+[[package]]
+category = "main"
+description = "A MutableSet that remembers its order, so that every entry has an index."
+name = "ordered-set"
+optional = false
+python-versions = ">=2.7"
+version = "3.1"
+
+[[package]]
+category = "dev"
+description = "A terminal string styling library"
+name = "simple-chalk"
+optional = false
+python-versions = ">=3.6"
+version = "0.1.0"
+
+[[package]]
+category = "main"
+description = "like dedent but more flexible"
+name = "tedent"
+optional = false
+python-versions = ">=3.7,<4.0"
+version = "0.1.0"
+
+[package.dependencies]
+ordered_set = ">=3.1,<4.0"
+wrapt = ">=1.11,<2.0"
+
+[[package]]
+category = "main"
+description = "Module for decorators, wrappers and monkey patching."
+name = "wrapt"
+optional = false
+python-versions = "*"
+version = "1.11.1"
+
+[metadata]
+content-hash = "5b901d21837c3363b59d1ef65f9e946a5d92ea5e587dd5395c6f586e3b026fff"
+python-versions = "^3.7"
+
+[metadata.hashes]
+ordered-set = ["41c7ba85e7619cd4c71e38d4cd434f84de8473b826919eb79274b3a11b940b4d", "f9b703ea9aa9c1db44412c5ba1c16cf8b7ad7ef37a685e4da2fd3754b40f8f6a"]
+simple-chalk = ["d80f55993dfa040c1b55d2fbfb925e4fbb5798c2934601aa448ef4a192d84196"]
+tedent = ["380547c77fe6ea412df311f03d90833d3395da113bb7d9e49f484cf656d439c3", "390e0bfea7ee723053f00e4fc6a3ba3d0996792c368045fde1dcada3c49605b9"]
+wrapt = ["4aea003270831cceb8a90ff27c4031da6ead7ec1886023b80ce0dfe0adf61533"]
