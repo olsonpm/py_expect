@@ -1,4 +1,4 @@
-from tedent import tedent
+from ._vendor.tedent import tedent
 from functools import wraps
 from .ExpectFailedError import ExpectFailedError
 
